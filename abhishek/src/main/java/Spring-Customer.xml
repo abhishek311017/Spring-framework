@@ -6,9 +6,8 @@
     http://www.springframework.org/schema/context
     http://www.springframework.org/schema/context/spring-context-2.5.xsd">
 
-    <context:annotation-config />
-
-    <bean id="customerService" class="preconstructpredestroyanno8.CustomerSevice">
+   
+    <bean id="customerService" class="preconstructpredestroyanno8.CustomerService">
         <property name="message" value="i'm property message" />
     </bean>
         
